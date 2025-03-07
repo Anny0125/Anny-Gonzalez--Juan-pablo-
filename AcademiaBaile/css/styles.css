@@ -1,0 +1,110 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ff6600, #ff9900);
+    color: white;
+}
+
+/* Encabezado */
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .logo span {
+    color: #fff5e1;
+}
+
+/* Ajuste del logo */
+header .logo img {
+    width: 100px;  /* Ajusta el tamaño del logo según necesites */
+    height: auto;  /* Mantiene la proporción de la imagen */
+    display: block;
+    margin-left: 0;  /* Asegura que esté alineado a la izquierda */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+/*Menu barra principal*/
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+nav ul li a:hover {
+    color: #ff6600;  /* Blanco al pasar el mouse */
+}
+
+/* Sección Hero */
+.hero {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-text h1 {
+    color: #ff6600;
+    font-size: 40px;
+    margin: 0;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+/*Boton comenzar ahora*/
+.btn {
+    background-color: black;
+    color: #ff6600;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #fff5e1;
+}
+
+/* Sección Sobre Nosotros */
+.about {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.about h2 {
+    color: black;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
