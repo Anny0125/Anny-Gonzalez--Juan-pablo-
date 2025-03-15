@@ -6,23 +6,33 @@
     <title>Oban Studio</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" type="image/png" sizes="32x32" href="Img/favicon-32x32.png">
+    <script defer src="js/script.js"></script> <!-- Archivo JavaScript externo -->
 </head>
 <body>
+
+    <!-- Encabezado -->
     <header>
         <div class="logo">
-            <img src="Img/Logo1.png" alt="Logo de la Academia de Baile">
+            <img src="Img/Logo1.png" alt="Logo Oban Studio">
         </div>
+
+        <!-- Botón de menú para móviles -->
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+
         <nav>
-            <ul>
-                <li><a href="#">Clases</a></li>
-                <li><a href="#">Horarios</a></li>
-                <li><a href="#">Precios</a></li>
-                <li><a href="#">Contacto</a></li>
+            <ul id="menu">
+                <li><a href="Clases.html">Clases</a></li>
+                <li><a href="precios.html">Precios</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
+    <!-- Sección Hero con Imagen Transparente -->
     <section class="hero">
+        <div class="hero-background">
+            <img src="Img/imgh.jpg" alt="Fondo Hero">
+        </div>
         <div class="hero-text">
             <h1>Oban Studio</h1>
             <p>Únete a nuestra academia y aprende con los mejores instructores.</p>
@@ -30,14 +40,28 @@
         </div>
     </section>
 
-    <section class="about">
-        <h2>Sobre Nosotros</h2>
-        <p>Somos una academia de baile comprometida con enseñar diferentes estilos a todos los niveles.</p>
-    </section>
+    <!-- Sección Sobre Nosotros -->
+<section class="about">
+    <h2>Sobre Nosotros</h2>
+    <div class="about-container">
+        <!-- Caja Izquierda (Profesores) -->
+        <div class="about-box left">
+            <h3>Para Profesores</h3>
+            <p>Ofrecemos un espacio dinámico para que los instructores compartan su talento, con acceso a salas equipadas y apoyo administrativo.</p>
+        </div>
 
+        <!-- Caja Derecha (Estudiantes) -->
+        <div class="about-box right">
+            <h3>Para Estudiantes</h3>
+            <p>Los alumnos tienen acceso a clases de distintos niveles, con profesores capacitados y una comunidad apasionada por el baile.</p>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
     <footer>
-        <br>© 2025 Oban Studio. </br>
-       
+        <p>© 2025 Oban Studio.</p>
     </footer>
+
 </body>
 </html>

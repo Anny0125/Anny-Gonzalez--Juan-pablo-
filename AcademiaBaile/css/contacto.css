@@ -1,0 +1,112 @@
+/* Fondo general con degradado */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff6600, black);
+    color: white;
+}
+
+/* Logo en la esquina superior izquierda */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.logo img {
+    width: 120px; /* Ajusta el tamaño del logo */
+    height: auto;
+}
+/* Botón de Inicio en la esquina superior derecha */
+.btn-inicio {
+    margin-right: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: background 0.3s;
+}
+
+.btn-inicio:hover {
+    background: #cc5500;
+}
+
+/* Estilos de la sección de contacto */
+.contact {
+    text-align: center;
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.contact h1 {
+    color: #ff6600;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Teléfono */
+.contact-info h2 {
+    color: #ff6600;
+    font-size: 24px;
+}
+
+.contact-info p a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info p a:hover {
+    color: #ff6600;
+}
+
+/* Redes Sociales */
+.social-media {
+    margin-top: 40px;
+}
+
+.social-media h2 {
+    color: #ff6600;
+    font-size: 24px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.social-icons a img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.social-icons a:hover img {
+    transform: scale(1.2);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
