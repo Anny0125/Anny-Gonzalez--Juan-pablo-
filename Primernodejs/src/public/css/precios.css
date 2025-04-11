@@ -1,0 +1,166 @@
+/* Fondo general con degradado */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff6600, black);
+    color: white;
+}
+
+/* Logo en la esquina superior izquierda */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.logo img {
+    width: 120px; /* Tamaño del logo */
+    height: auto;
+}
+
+/* Botón de Inicio en la esquina superior derecha */
+.btn-inicio {
+    margin-right: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: background 0.3s;
+}
+
+.btn-inicio:hover {
+    background: #cc5500;
+}
+
+/* Sección de precios */
+.prices {
+    text-align: center;
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prices h1 {
+    color: #ff6600;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.prices p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Contenedor de los planes */
+.price-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Estilos de cada plan */
+.price-box {
+    background: rgba(255, 102, 0, 0.2);
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(255, 102, 0, 0.3);
+    width: 280px;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.price-box h2 {
+    color: #ff6600;
+    font-size: 24px;
+}
+
+.price-box p {
+    font-size: 16px;
+}
+
+.price-tag {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+    display: block;
+    color: white;
+}
+
+.price-box:hover {
+    background: rgba(255, 102, 0, 0.5);
+    transform: scale(1.05);
+}
+
+/* Botón de inscripción */
+.btn {
+    display: inline-block;
+    background: #ff6600;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #cc5500;
+}
+
+/* Sección de estilos de baile */
+.styles {
+    text-align: center;
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.styles h1 {
+    color: #ff6600;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.styles p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Contenedor de estilos */
+.styles-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.style-box {
+    background: rgba(255, 102, 0, 0.3);
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.style-box:hover {
+    background: rgba(255, 102, 0, 0.6);
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}

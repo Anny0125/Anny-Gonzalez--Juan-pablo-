@@ -1,0 +1,117 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 100px;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* Evita el scroll horizontal */
+    background: linear-gradient(to right, #ff6600, black); /* Degradado naranjado */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* Estilo del header */
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Logo */
+.logo img {
+    width: 100px; /* Ajusta el tamaño del logo */
+    height: auto;
+}
+
+/* Contenedor principal */
+.container {
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+/* Sección de los perfiles */
+.profiles {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 20px;
+}
+
+/* Estilos de cada botón de perfil */
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 25px;
+    border-radius: 15px;
+    width: 200px; /* Aumentado el tamaño */
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+/* Imagen de perfil */
+.profile img {
+    width: 140px; /* Imagen más grande */
+    height: 140px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+/* Texto del perfil */
+.profile p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Efecto al pasar el mouse */
+.profile:hover {
+    transform: scale(1.1);
+    background: black (255, 255, 255, 0.3);
+}
+
+/* Cuadro de información debajo de los perfiles */
+.info-box {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.info-box p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+/* Botón de Inicio en la esquina superior derecha */
+.btn-inicio {
+    margin-right: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: background 0.3s;
+}
+.btn-inicio:hover {
+    background: #cc5500;
+}

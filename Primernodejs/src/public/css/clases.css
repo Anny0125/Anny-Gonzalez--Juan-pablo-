@@ -1,0 +1,105 @@
+/* Fondo con degradado en toda la página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff6600, black);
+    color: white;
+    text-align: center;
+}
+
+/* Logo en la parte superior izquierda */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+/* Botón de Inicio en la parte superior derecha */
+.btn-inicio {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 15px;
+    transition: background 0.3s ease;
+}
+
+.btn-inicio:hover {
+    background-color: #e65c00;
+}
+
+/* Sección de Clases */
+.clases {
+    padding: 100px 20px 60px;
+}
+
+.clases h1 {
+    font-size: 35px;
+    color: #ff6600;
+    margin-bottom: 10px;
+}
+
+.clases p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Contenedor de horarios */
+.clases-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.clase-box {
+    background: rgba(255, 102, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(255, 102, 0, 0.3);
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.clase-box h2 {
+    color: #ff6600;
+    font-size: 24px;
+}
+
+.clase-box p {
+    font-size: 16px;
+}
+
+/* Animación al pasar el mouse */
+.clase-box:hover {
+    background: rgba(255, 102, 0, 0.5);
+    transform: scale(1.05);
+}
+
+/* Sección de ubicación */
+.ubicacion {
+    margin-top: 40px;
+}
+
+.ubicacion h2 {
+    color: #ff6600;
+    font-size: 24px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}

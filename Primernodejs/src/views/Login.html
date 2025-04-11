@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Oban Studio</title>
+    <link rel="stylesheet" href="css/login-Registro.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="Img/favicon-32x32.png">
+</head>
+<body>
+       <!-- Botón de Inicio en la esquina superior derecha -->
+       <a href="/perfiles" class="btn-inicio">Inicio</a>
+    <div class="container">
+        <div class="login-box">
+            <div class="logo">
+                <img src="Img/Logo1.png" alt="Logo Academia de Baile">
+            </div>
+            <h2>Iniciar Sesión</h2>
+            <form>
+                <div class="input-box">
+                    <input type="username" placeholder="Nombre de Usuario" required>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Contraseña" required>
+                </div>
+                <button type="submit" class="btn">Iniciar Sesión</button>
+            </form>
+            <p>¿No tienes una cuenta? <a href="/register">Regístrate aquí</a></p>
+        </div>
+    </div>
+    <script src="/validationLogin.js"></script>
+</body>
+</html>
