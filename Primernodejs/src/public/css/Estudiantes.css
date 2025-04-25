@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff6600, black);
+    color: white;
+    text-align: center;
+  }
+  
+  /* Logo */
+  .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: auto;
+  }
+  
+  /* Botón Inicio */
+  .btn-inicio {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-inicio:hover {
+    background-color: #e65c00;
+  }
+  
+  /* Sección de bienvenida */
+  .bienvenida {
+    margin-top: 120px;
+  }
+  
+  .bienvenida h1 {
+    font-size: 32px;
+    color: #fff5e1;
+  }
+  
+  /* Sección de perfil */
+  .perfil {
+    margin-top: 40px;
+    padding: 20px;
+  }
+  
+  .perfil h2 {
+    color: #ff6600;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .perfil-info {
+    background: rgba(255, 102, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(255, 102, 0, 0.3);
+    font-size: 18px;
+    line-height: 1.8;
+  }
+  
+  footer {
+    margin-top: 50px;
+    font-size: 14px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+  }
+  
